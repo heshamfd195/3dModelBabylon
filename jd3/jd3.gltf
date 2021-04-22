@@ -1,0 +1,260 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v3.1.128981410)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_pbrSpecularGlossiness"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 22643,
+            "type": "VEC3",
+            "max": [
+                1.6394920349121094,
+                1.8488811254501343,
+                4.091454982757568
+            ],
+            "min": [
+                -1.6394920349121094,
+                -1.8488811254501343,
+                -4.091454982757568
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 22643,
+            "type": "VEC3",
+            "max": [
+                0.9999998807907105,
+                0.9999887943267822,
+                0.9996559619903565
+            ],
+            "min": [
+                -0.999995768070221,
+                -0.9999681711196899,
+                -0.9999070763587952
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 22643,
+            "type": "VEC2",
+            "max": [
+                0.9993900060653687,
+                0.9993900060653687
+            ],
+            "min": [
+                0.0006099999882280827,
+                0.0006099939346313477
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 110286,
+            "type": "SCALAR",
+            "max": [
+                22642.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 945148,
+            "uri": "jd3.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 271716,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 271716,
+            "byteLength": 271716,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 543432,
+            "byteLength": 181144,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 724576,
+            "byteLength": 220572,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/material_0_diffuse.jpeg"
+        },
+        {
+            "uri": "textures/material_0_normal.jpeg"
+        },
+        {
+            "uri": "textures/material_0_occlusion.png"
+        },
+        {
+            "uri": "textures/material_0_specularGlossiness.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "material_0_material",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "occlusionTexture": {
+                "index": 2
+            },
+            "doubleSided": true,
+            "extensions": {
+                "KHR_materials_pbrSpecularGlossiness": {
+                    "specularFactor": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "diffuseTexture": {
+                        "index": 0
+                    },
+                    "specularGlossinessTexture": {
+                        "index": 3
+                    }
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes_0",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode (gltf orientation matrix)",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                5.960464477539063e-8,
+                -0.9999999403953552,
+                0.0,
+                0.0,
+                0.9999999403953552,
+                5.960464477539063e-8,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "RootNode (model correction matrix)",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.000003457100092418841,
+                -5.96000006680697e-7,
+                1.0
+            ],
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "nb574.obj.cleaner.materialmerger.gles",
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "nodes_3",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 0
+        },
+        {
+            "source": 2,
+            "sampler": 0
+        },
+        {
+            "source": 3,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
