@@ -1,0 +1,248 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6921,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1241,
+      "max": [
+        0.190467998385429,
+        1.66236197948456,
+        0.0893459916114807
+      ],
+      "min": [
+        -0.191225990653038,
+        1.09326004981995,
+        -0.0841460004448891
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1241,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1241,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 19233,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 3646,
+      "max": [
+        0.191874980926514,
+        1.6642439365387,
+        0.0913370028138161
+      ],
+      "min": [
+        -0.192626982927322,
+        1.09257304668427,
+        -0.0849419981241226
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 3646,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 3646,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Substance Painter 7.1.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 27684,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14892,
+      "byteOffset": 27684,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14892,
+      "byteOffset": 42576,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9928,
+      "byteOffset": 57468,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 76932,
+      "byteOffset": 67396,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43752,
+      "byteOffset": 144328,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43752,
+      "byteOffset": 188080,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 29168,
+      "byteOffset": 231832,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 261000,
+      "uri": "f2.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "front_baseColor.png"
+    },
+    {
+      "uri": "front_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "front_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "front",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "CF-CR-FR-P",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "CF-CR-FR-P",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "CF-CR-FR-P.obj"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "CF-CR-FR-P"
+    },
+    {
+      "mesh": 0,
+      "name": "CF-CR-FR-P"
+    },
+    {
+      "mesh": 1,
+      "name": "CF-CR-FR-P"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
